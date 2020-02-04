@@ -9,7 +9,7 @@ var addZoom = function (target) {
     var imgWidth = img.naturalWidth,
         imgHeight = img.naturalHeight,
         ratio = imgHeight / imgWidth,
-        percentage = ratio * 100 + '%';
+        percentage = ratio * 50 + '%';
 
     container.onclick = function (e) {
       var boxWidth = container.clientWidth,
